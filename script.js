@@ -1,7 +1,7 @@
 function highlight() {
  //    const link = document.getElementById("link");
 	// link.addEventListener('mouseenter',() => {
-		const strong = document.querySelectorAll(".strong");
+		const strong = document.querySelectorAll("strong");
 		strong.forEach((element) => {
 			strong.style.color = "green";
 		});
