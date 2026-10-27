@@ -12,7 +12,7 @@ function highlight() {
 function return_normal() {
  //    const link = document.getElementById("link");
 	// link.addEventListener('mouseleave',() => {
-		const strong = document.querySelectorAll(".strong");
+		const strong = document.querySelectorAll("strong");
 		strong.forEach((element) => {
 			strong.style.color = "black";
 		});
