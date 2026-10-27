@@ -3,7 +3,7 @@ function highlight() {
 	// link.addEventListener('mouseenter',() => {
 		const strong = document.querySelectorAll("strong");
 		strong.forEach((element) => {
-			strong.style.color = "green";
+			element.style.color = "green";
 		});
 	// });
 }
@@ -14,7 +14,7 @@ function return_normal() {
 	// link.addEventListener('mouseleave',() => {
 		const strong = document.querySelectorAll("strong");
 		strong.forEach((element) => {
-			strong.style.color = "black";
+			element.style.color = "black";
 		});
 	// });
 
