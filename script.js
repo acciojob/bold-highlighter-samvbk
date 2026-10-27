@@ -9,7 +9,7 @@ function highlight() {
 
 function return_normal() {
     const link = document.getElementById("link");
-	link.addEventListener('mouseenter',() => {
+	link.addEventListener('mouseleave',() => {
 		const strong = document.querySelectorAll(".strong");;
 		strong.style.color = "black";
 	});
