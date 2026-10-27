@@ -1,12 +1,18 @@
 function highlight() {
-    //Write your code here
-
-
+    const link = document.getElementById("link");
+	link.addEventListener('mouseenter',() => {
+		const strong = document.querySelectorAll(".strong");;
+		strong.style.color = "green";
+	});
 }
 
 
 function return_normal() {
-    //Write your code here
+    const link = document.getElementById("link");
+	link.addEventListener('mouseenter',() => {
+		const strong = document.querySelectorAll(".strong");;
+		strong.style.color = "black";
+	});
 
     
 }
